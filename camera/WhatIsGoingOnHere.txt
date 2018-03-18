@@ -1,0 +1,19 @@
+File Connection is the connection for the second computer. 
+The IP of 2nd computer is 192.168.1.2, port 5000. It is hardcoded in the camera 
+factory
+
+You define the camera you use, it MUST implement the interface Camera. 
+Camera_local and Camera_hero4 are the implementations examples.
+
+Camera_factory helps to get the needed camera with needed connection and 
+tracker. Make new function for getting the new camera, when the current does not
+suit you.
+
+The main class is Main. You should only change the name
+of camera_factory function and launch it.
+$ python Main.py
+
+Usefull link for OpenCV installation (with contribs) 
+http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
+
+Camera's WiFi pass is Mavridis1997
